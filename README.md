@@ -91,6 +91,4 @@ sudo python launch_manager.py
 
 ## 支持的macOS版本
 
-- macOS Monterey (12.x)
-- macOS Ventura (13.x)
-- macOS Sonoma (14.x) 
+- macOS Monterey (12.x)及以上版本
