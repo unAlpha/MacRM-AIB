@@ -1,0 +1,6 @@
+__pycache__/
+.DS_Store
+提示词.txt
+/dist/
+/build/
+
