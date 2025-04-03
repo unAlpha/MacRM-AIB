@@ -44,8 +44,11 @@ sudo python launch_manager.py
 
 ## 使用说明
 
+### 打开系统设置
+   查看"允许在后台"的列表
+
 ### 搜索功能
-1. 在顶部搜索框中输入关键词
+1. 在顶部搜索框中输入"允许在后台"的列表关键词
 2. 点击"搜索"按钮或按回车键
 3. 在搜索结果列表中查看匹配的文件
 4. 点击搜索结果项会自动跳转到对应的文件夹和文件
@@ -71,10 +74,10 @@ sudo python launch_manager.py
 
 1. 如果看到如下内容：
    ```xml
-   <key>WorkingDirectory</key>
    <string>/Applications/极光PDF.app/Contents/MacOS/</string>
    ```
-
+   说明此项与极光PDF软件有关。
+   
 2. 检查对应应用是否存在：
    - 如果`/Applications/极光PDF.app`已不存在，则此启动项可以安全删除
    - 如果应用仍然存在，请谨慎删除
